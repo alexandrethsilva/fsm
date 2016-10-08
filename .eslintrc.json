@@ -1,0 +1,58 @@
+{
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb-base",
+    "airbnb-base/rules/strict"
+  ],
+  "rules": {
+    "arrow-parens": [2, "always"],
+    "guard-for-in": 0,
+    "id-length": [2, {
+      "exceptions": ["_", "$", "R", "P", "t", "x", "y", "z", "a", "b", "c", "f", "g"]
+    }],
+    "import/imports-first": 0,
+    "keyword-spacing": 2,
+    "new-cap": [2, {
+      "capIsNewExceptions": [
+        "Async",
+        "Maybe",
+        "Just",
+        "Nothing",
+        "Task",
+        "Validation",
+        "Violation",
+        "IO",
+        "Some",
+        "None",
+        "Left",
+        "Right",
+        "Failure",
+        "Success",
+        "Or",
+        "And",
+        "Seq",
+        "ArrayOf",
+        "ObjectOf",
+        "Null",
+        "Undefined",
+        "FSM",
+        "State"
+      ]
+    }],
+    "no-confusing-arrow": 0,
+    "no-console": 1,
+    "padded-blocks": 0,
+    "semi": [2, "never"],
+    "sort-imports": [2, {
+      "ignoreCase": true
+    }],
+    "space-before-function-paren": 1,
+    "spaced-comment": 0,
+    "vars-on-top": 0
+  }
+}

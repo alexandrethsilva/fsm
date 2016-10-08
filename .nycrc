@@ -1,0 +1,10 @@
+{
+  "cache": true,
+  "reporter": [
+    "lcov",
+    "text-summary"
+  ],
+  "require": [
+    "babel-register"
+  ]
+}
